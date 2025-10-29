@@ -27,7 +27,7 @@ export default async function PostcardDetail({
 
         <div className="grid md:grid-cols-2 gap-8 bg-white rounded-lg shadow-md p-8">
           {/* Image */}
-          <div className="relative aspect-[3/2] rounded-lg overflow-hidden">
+          <div className="relative aspect-3/2 rounded-lg overflow-hidden">
             <Image
               src={postcard.image_url}
               alt={postcard.title}

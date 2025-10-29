@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 async function getPostcards() {
-  const res = await fetch("http://localhost:3000/api/postcards", {
+  const res = await fetch("https://postcard-demo-two.vercel.app/api/postcards", {
     cache: "no-store",
   });
   return res.json();
